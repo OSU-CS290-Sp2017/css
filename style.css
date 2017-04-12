@@ -1,0 +1,44 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+h1.special-thing {
+  color: purple;
+}
+
+.special-thing {
+  background-color: yellow;
+  color: green;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+#the-most-important-heading {
+  font-size: 80px;
+}
+
+p.special-thing {
+  font-weight: bold;
+}
+
+.special-list li {
+  background-color: #ccc;
+}
+
+.sibling-before + li {
+  font-size: 30px;
+}
+
+.sibling-before ~ li {
+  background-color: orange;
+}
+
+h1.special-thing.italic-text {
+  color: black;
+}
