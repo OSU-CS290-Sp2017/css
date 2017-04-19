@@ -1,0 +1,39 @@
+.hover-interaction:hover {
+  background-color: orange;
+}
+
+.focusable a:focus {
+  font-size: 150%;
+}
+
+.styled-list li:first-child {
+  background-color: red;
+}
+
+.styled-list li:last-child {
+  background-color: magenta;
+}
+
+li:nth-child(even) {
+  font-weight: bold;
+}
+
+a::after {
+  content: "→";
+  font-size: 30px;
+}
+
+p::before {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  background-color: yellow;
+}
+
+.fancy-paragraph::first-letter {
+  font-size: 50px;
+}
+
+.fancy-paragraph::first-line {
+  font-style: italic;
+}

@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title></title>
+    <title>Positioning</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="positioning.css">
   </head>
@@ -8,10 +8,37 @@
   <body>
 
     <div class="outer">
-      <div class="inner">
+      <div class="positioned-inner relative">
+        relative
+      </div>
+      <div class="unpositioned-inner">
 
       </div>
-      <div class="inner2">
+    </div>
+
+    <div class="outer">
+      <div class="positioned-inner absolute">
+        absolute
+      </div>
+      <div class="unpositioned-inner">
+
+      </div>
+    </div>
+
+    <div class="outer relative">
+      <div class="positioned-inner absolute">
+        absolute inside relative
+      </div>
+      <div class="unpositioned-inner">
+
+      </div>
+    </div>
+
+    <div class="outer">
+      <div class="positioned-inner fixed">
+        fixed
+      </div>
+      <div class="unpositioned-inner">
 
       </div>
     </div>
