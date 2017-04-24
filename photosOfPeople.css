@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #dadada;
+}
+
+header {
+  background-color: #e78477;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-title {
+  margin: 0;
+  padding: 20px;
+}
+
+.navbar {
+  font-size: 22px;
+  background-color: #fff;
+}
+
+.navlist {
+  margin: 0;
+}
+
+.navitem {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navitem a {
+  color: #454545;
+}
+
+.navitem.right {
+  float: right;
+}

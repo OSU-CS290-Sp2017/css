@@ -1,10 +1,40 @@
+.box-container {
+  display: flex;
+}
+
 .box {
+  flex: 1 25%;
   font-size: 120px;
-  width: 150px;
-  height: 150px;
   padding: 10px;
   margin: 10px;
   background-color: green;
   border: 5px solid black;
   box-sizing: border-box;
+  text-align: center;
+}
+
+.box p {
+  font-size: 22px;
+}
+
+@media(max-width: 1000px) {
+  .box {
+    background-color: yellow;
+    flex: 1 50%;
+  }
+
+  .box-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 600px) {
+  .box {
+    background-color: orange;
+    flex: 1 100%;
+  }
+
+  .box-container {
+    flex-wrap: wrap;
+  }
 }
